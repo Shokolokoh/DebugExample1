@@ -1,4 +1,4 @@
-
+// Charles Ohakwe
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -6,8 +6,8 @@ using namespace std;
 int main() {
    const int NUM_ELEMENTS = 8;        // Number of elements
    vector<int> revVctr(NUM_ELEMENTS); // User values
-   unsigned int i;
-   int top, bottom; // Loop index
+   unsigned int i;                    // Loop index
+   int top, bottom; 
        
    cout << "Enter " << NUM_ELEMENTS << " integer values..." << endl;
    for (i = 0; i < revVctr.size(); ++i) {
